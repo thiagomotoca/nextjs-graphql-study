@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3"/>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.7.0"/>
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="5.2.0"/>
+    <PackageReference Include="HotChocolate.Data" Version="12.7.0"/>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GraphqlStudy.Domain\GraphqlStudy.Domain.csproj"/>
+  </ItemGroup>
+</Project>
